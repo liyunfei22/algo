@@ -1,4 +1,4 @@
-import { TreeNode, levelOrderTraversal, preorderTraversal, inorderTraversal, postorderTraversal } from './Tree/index'; // 假设我们的实现在这个文件中
+import { TreeNode, levelOrderTraversal, preorderTraversal, inorderTraversal, postorderTraversal } from '../Tree/index'; // 假设我们的实现在这个文件中
 
 describe('Binary Tree Traversal', () => {
   // 创建一个测试用的二叉树
