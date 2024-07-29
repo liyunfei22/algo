@@ -13,6 +13,7 @@
     }
   },
   "scripts": {
+    "commit": "cz",
     "prepare": "husky install",
     "tsc": "tsc",
     "clean": "rm -rf dist",
@@ -42,6 +43,8 @@
     "@types/node": "^20.14.12",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
     "@typescript-eslint/parser": "^7.17.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
@@ -65,5 +68,10 @@
     "*.{json,md,yml}": [
       "prettier --write"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
