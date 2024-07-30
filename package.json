@@ -28,7 +28,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "liyunfei22",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.24.9",
