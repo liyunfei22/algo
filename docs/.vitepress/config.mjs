@@ -1,4 +1,7 @@
-export default {
+import path from 'path'
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
   title: 'RollupTs',
   description: 'A TypeScript-based utility library',
   themeConfig: {
@@ -21,4 +24,12 @@ export default {
       },
     ],
   },
-};
+  vite: {
+    resolve: {
+      alias: {
+        '@redarsenal/rollup-ts': path.resolve(__dirname, '../../src/index.ts')
+      }
+    }
+  }
+
+});
